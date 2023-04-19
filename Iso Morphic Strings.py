@@ -17,3 +17,6 @@ class Solution:
         print(hm1)
         print(hm2)
         return list(hm1.values()) == list(hm2.values())
+
+s="name"
+print(s.zfill(6))
