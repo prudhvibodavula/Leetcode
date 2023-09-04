@@ -1,3 +1,8 @@
+#Depth of a node: defined as the number of edges in the path from the root of the tree to the node.
+#Height of a node: The height of a node can be defined as the length of the longest path from the node to a leaf node of the tree.
+#Height of the Tree: The height of a tree is the length of the longest path from the root of the tree to a leaf node of the tree.
+#Degree of a Node: The total count of subtrees attached to that node is called the degree of the node. 
+#The degree of a leaf node must be 0. The degree of a tree is the maximum degree of a node among all the nodes in the tree.
 class Node:
     def __init__(self,data) :
         self.data=data
