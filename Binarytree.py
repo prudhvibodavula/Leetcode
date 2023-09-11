@@ -27,7 +27,6 @@ class BinaryTree:
         return traversal
     def inorder(self,start,traversal):
         if start:
-            
             traversal=self.inorder(start.left,traversal)
             traversal+=(str(start.data)+"-")
             traversal=self.inorder(start.right,traversal)
